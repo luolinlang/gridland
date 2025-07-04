@@ -9,7 +9,8 @@ define(['app/eventmanager', 'app/audio/webaudioprovider', 'app/audio/htmlaudiopr
 	var playingMusic = false;
 	var longloadTimer = false;
 	var playingBossMusic = false;
-	var CDN_PATH = "https://glmedia.doublespeakgames.com/";
+	// var CDN_PATH = "/web/games/gridland/www/";
+	var CDN_PATH = "/web/games/gridland/www/";
 	
 	var sounds = {
 		DayMusic: {

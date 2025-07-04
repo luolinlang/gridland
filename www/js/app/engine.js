@@ -183,7 +183,6 @@ define(['jquery', 'app/eventmanager', 'app/analytics', 'app/graphics/graphics',
 			
 			var modules = [EventManager,
 			                Visibility,
-							Analytics,
 							[GameBoard, gOptions],
 							[Graphics, { ios: isIOS() }],
 							World,
